@@ -1,1 +1,27 @@
-
+<main class="flex flex-col my-4 w-[350px] h-3/4 bg-white items-center rounded-md shadow-md shadow-cyan-500/50">
+        <div class="text-center my-4 text-2xl ">
+            <h2>Let's Sign You In</h2>
+            <div class="w-full h-0.5 bg-slate-600 "></div>
+        </div>
+        <div class="w-4/5 h-2/3">
+            <div class="mx-8 my-2 w-4/5  h-auto ">
+                <label for="Email">Email*
+                <input type="email" name="email" id="Email" placeholder="xyz@gmail.com" class="flex my-1 w-full h-8 rounded-xl bg-slate-200"></label>
+            </div>
+            <div class="mx-8 my-2 w-4/5 rounded-2xl h-auto ">
+                <label for="pass">password*
+                    <input type="password" name="password" id="pass" placeholder="enter password" class="flex my-1 w-full h-8 rounded-xl bg-slate-200"">
+                </label>
+                <label for="radio"><input type="checkbox"> <span>Remember me</span></label>
+                
+            </div>
+            <div class="mx-8 my-2 w-4/5 h-auto flex justify-center text-xl rounded-3xl text-white bg-red-400">
+                <button>Log In</button>
+            </div>
+            <div class="mx-[65px] my-2 w-4/5 h-auto ">
+                <a href="#">Forgot the Password?</a>
+            </div>
+        </div>
+        <div>
+            <h3 class="text-red-400">Don't have an account?<span class="text-black">Signup</span></h3>
+        </div>
