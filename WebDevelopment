@@ -1,0 +1,20 @@
+<div class="flex flex-col justify-between w-4/6 h-[480px] mx-[220px] my-[80px] md:flex-row">
+        <div class="w-2/4 h-auto flex flex-col mx-4 py-8 ">
+            <div class="mt-8 py-4">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" class="w-4/5 text-left h-[90px]">
+            </div>
+            <p class="mx-[50px] px-1 my-2 text-2xl font-semibold">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <div class="flex w-2/4 flex-col h-5/6 ">
+           <div class="flex w- flex-col h-4/5 bg-blue-100 mx-4 rounded">
+                <div class="flex flex-col mt-8">
+                    <input type="email" name="email" class="w-5/6 my-2 mx-8 h-10 rounded-md text-justify" placeholder="Email Address or phone"> 
+                    <input type="password" name="password" class="w-5/6 my-2 mx-8 h-10 rounded-md" placeholder="password">
+                    <button class="w-5/6 bg-blue-400 mx-8 font-medium text-xl text-black h-[35px] rounded">Log in</button>
+                    <a href="#" class="text-center mt-3 text-blue-600 font-medium text-lg">Forgotten password?</a>
+                    <div class="w-5/6 h-0.5  bg-gray-600 mt-2 rounded mx-8"></div>
+                    <button class="w-4/6 bg-green-300 mt-4 mx-[60px] h-8 rounded text-lg">Create new account</button>
+                </div>
+           </div>
+        </div>
+    </div>
